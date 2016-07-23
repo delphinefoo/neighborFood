@@ -13,7 +13,7 @@
 		2E0E0C611D43DE4200F51C4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E0C5F1D43DE4200F51C4E /* Main.storyboard */; };
 		2E0E0C631D43DE4200F51C4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E0C621D43DE4200F51C4E /* Assets.xcassets */; };
 		2E0E0C661D43DE4200F51C4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E0C641D43DE4200F51C4E /* LaunchScreen.storyboard */; };
-		2E0E0C6E1D43E62300F51C4E /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E0C6D1D43E62300F51C4E /* GoogleService-Info (1).plist */; };
+		2E0E0C6E1D43E62300F51C4E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E0C6D1D43E62300F51C4E /* GoogleService-Info.plist */; };
 		DDDB3232891700423E0CF42D /* Pods_NeighborFood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8251AA7FED29D03F1F04673 /* Pods_NeighborFood.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +26,7 @@
 		2E0E0C621D43DE4200F51C4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E0E0C651D43DE4200F51C4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E0E0C671D43DE4200F51C4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E0E0C6D1D43E62300F51C4E /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		2E0E0C6D1D43E62300F51C4E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		33F3DF8AA6A5EB5C358E2E22 /* Pods-NeighborFood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeighborFood.release.xcconfig"; path = "Pods/Target Support Files/Pods-NeighborFood/Pods-NeighborFood.release.xcconfig"; sourceTree = "<group>"; };
 		F1894F320277516AFB3EB2BE /* Pods-NeighborFood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeighborFood.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NeighborFood/Pods-NeighborFood.debug.xcconfig"; sourceTree = "<group>"; };
 		F8251AA7FED29D03F1F04673 /* Pods_NeighborFood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeighborFood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,7 +78,7 @@
 				2E0E0C5D1D43DE4200F51C4E /* SecondViewController.swift */,
 				2E0E0C5F1D43DE4200F51C4E /* Main.storyboard */,
 				2E0E0C621D43DE4200F51C4E /* Assets.xcassets */,
-				2E0E0C6D1D43E62300F51C4E /* GoogleService-Info (1).plist */,
+				2E0E0C6D1D43E62300F51C4E /* GoogleService-Info.plist */,
 				2E0E0C641D43DE4200F51C4E /* LaunchScreen.storyboard */,
 				2E0E0C671D43DE4200F51C4E /* Info.plist */,
 			);
@@ -158,7 +158,7 @@
 				2E0E0C661D43DE4200F51C4E /* LaunchScreen.storyboard in Resources */,
 				2E0E0C631D43DE4200F51C4E /* Assets.xcassets in Resources */,
 				2E0E0C611D43DE4200F51C4E /* Main.storyboard in Resources */,
-				2E0E0C6E1D43E62300F51C4E /* GoogleService-Info (1).plist in Resources */,
+				2E0E0C6E1D43E62300F51C4E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
