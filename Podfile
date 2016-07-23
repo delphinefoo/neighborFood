@@ -9,5 +9,6 @@ target 'NeighborFood' do
   pod 'Firebase'
   pod 'Firebase/Messaging'
   pod 'Firebase/Storage'
+  pod 'Firebase/Database'
 
 end
