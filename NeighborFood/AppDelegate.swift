@@ -18,6 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         FIRApp.configure()
+        let storage = FIRStorage.storage()
+        let storageRef = storage.referenceForURL("gs://neighborfood-85c2b.appspot.com")
+        let imagesRef = storageRef.child("images")
         return true
     }
 
