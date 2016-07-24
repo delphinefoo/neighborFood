@@ -1,5 +1,5 @@
 //
-//  prodDetailViewController.swift
+//  producerDetailViewController.swift
 //  NeighborFood
 //
 //  Created by Delphine Foo-Matkin on 7/24/16.
@@ -10,32 +10,31 @@ import Foundation
 import UIKit
 import Firebase
 
-class prodDetailViewController: UIViewController {
+class producerDetailViewController: UIViewController {
     
-    
-    @IBOutlet var name: UILabel!
-    @IBOutlet var detailImg: UIImageView!
+    @IBOutlet var producerImg: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    
-        let gsReference = FIRStorage.storage().referenceForURL("gs://neighborfood-85c2b.appspot.com/images/strawberry-expose-sm.jpg")
+        
+        let gsReference = FIRStorage.storage().referenceForURL("gs://neighborfood-85c2b.appspot.com/images/farmer-profile-sm.jpg")
         gsReference.dataWithMaxSize(1 * 1024 * 1024) { (data, error) -> Void in
             if (error != nil) {
                 NSLog("ERRRRRRROOOORRR")
             } else {
                 if data != nil {
-                    self.detailImg.image = UIImage(data:data!)!
+                    self.producerImg.image = UIImage(data:data!)!
                 }
             }
         }
-                
-            
-
+        
+        
+        
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
 }

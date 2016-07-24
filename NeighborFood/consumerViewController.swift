@@ -19,15 +19,22 @@ class consumerViewController: UIViewController {
     @IBOutlet var imageFour: UIImageView!
     @IBOutlet var imageFive: UIImageView!
     @IBOutlet var imageSix: UIImageView!
-    
-    
-    
+    @IBOutlet var imageSeven: UIImageView!
+    @IBOutlet var imageEight: UIImageView!
+    @IBOutlet var imageNine: UIImageView!
+    @IBOutlet var imageTen: UIImageView!
+    @IBOutlet var imageEleven: UIImageView!
+    @IBOutlet var imageTwelve: UIImageView!
+
+    @IBOutlet var imageThirteen: UIImageView!
+
     
     var imageCollection = [UIImageView]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        imageCollection = [imageOne, imageTwo, imageThree, imageFour, imageFive, imageSix]
+        imageCollection = [imageOne, imageTwo, imageThree, imageFour, imageFive, imageSix,
+                           imageSeven, imageEight, imageNine, imageTen, imageEleven, imageTwelve, imageThirteen]
         
         //let tapRecog = UITapGestureRecognizer(target: imageTwo, action: "imgTap")
         //imageTwo.addGestureRecognizer(tapRecog)
