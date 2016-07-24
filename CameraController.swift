@@ -16,7 +16,20 @@ class CameraController: UIViewController, UIImagePickerControllerDelegate, UINav
     
     let imagePicker = UIImagePickerController()
     
-    @IBAction func takePicture(sender: UIButton) {
+    @IBAction func takePicture(sender: AnyObject) {
+        if UIImagePickerController.isSourceTypeAvailable(.Camera){
+            if (UIImagePickerController.availableCaptureModesForCameraDevice(.Rear) != nil){
+                self.presentViewController(imagePicker, animated: true, completion: nil)
+                
+            } else {
+                print("There was a problem accessing the rear camera")
+            }
+        } else {
+            print("There was a problem accessing the camera")
+        }
+
+    }
+    /*@IBAction func takePicture(sender: UIButton) {
         if UIImagePickerController.isSourceTypeAvailable(.Camera){
             if (UIImagePickerController.availableCaptureModesForCameraDevice(.Rear) != nil){
                 self.presentViewController(imagePicker, animated: true, completion: nil)
@@ -28,7 +41,7 @@ class CameraController: UIViewController, UIImagePickerControllerDelegate, UINav
             print("There was a problem accessing the camera")
         }
 
-    }
+    }*/
     
     func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
         print("Successfully took a picture")
