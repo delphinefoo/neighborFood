@@ -14,6 +14,13 @@
 		2E0E0C631D43DE4200F51C4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E0C621D43DE4200F51C4E /* Assets.xcassets */; };
 		2E0E0C661D43DE4200F51C4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E0C641D43DE4200F51C4E /* LaunchScreen.storyboard */; };
 		2E0E0C6E1D43E62300F51C4E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E0C6D1D43E62300F51C4E /* GoogleService-Info.plist */; };
+		2E3C04431D454B6F00959379 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3C043B1D454B6F00959379 /* CollectionViewController.swift */; };
+		2E3C04441D454B6F00959379 /* consumerImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3C043C1D454B6F00959379 /* consumerImagesViewController.swift */; };
+		2E3C04451D454B6F00959379 /* consumerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3C043D1D454B6F00959379 /* consumerViewController.swift */; };
+		2E3C04461D454B6F00959379 /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3C043E1D454B6F00959379 /* ImagePickerController.swift */; };
+		2E3C04471D454B6F00959379 /* prodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3C043F1D454B6F00959379 /* prodDetailViewController.swift */; };
+		2E3C04481D454B6F00959379 /* producerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3C04401D454B6F00959379 /* producerDetailViewController.swift */; };
+		2E3C04491D454B6F00959379 /* ProducerSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3C04411D454B6F00959379 /* ProducerSecondView.swift */; };
 		370655BF1D445A7A00AE0DE2 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370655BE1D445A7A00AE0DE2 /* CameraController.swift */; };
 		37780F6B1D452AFD000F9E83 /* ImageUploadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37780F6A1D452AFD000F9E83 /* ImageUploadController.swift */; };
 		DDDB3232891700423E0CF42D /* Pods_NeighborFood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8251AA7FED29D03F1F04673 /* Pods_NeighborFood.framework */; };
@@ -29,6 +36,13 @@
 		2E0E0C651D43DE4200F51C4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E0E0C671D43DE4200F51C4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E0E0C6D1D43E62300F51C4E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2E3C043B1D454B6F00959379 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		2E3C043C1D454B6F00959379 /* consumerImagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = consumerImagesViewController.swift; sourceTree = "<group>"; };
+		2E3C043D1D454B6F00959379 /* consumerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = consumerViewController.swift; sourceTree = "<group>"; };
+		2E3C043E1D454B6F00959379 /* ImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
+		2E3C043F1D454B6F00959379 /* prodDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = prodDetailViewController.swift; sourceTree = "<group>"; };
+		2E3C04401D454B6F00959379 /* producerDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = producerDetailViewController.swift; sourceTree = "<group>"; };
+		2E3C04411D454B6F00959379 /* ProducerSecondView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProducerSecondView.swift; sourceTree = "<group>"; };
 		33F3DF8AA6A5EB5C358E2E22 /* Pods-NeighborFood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeighborFood.release.xcconfig"; path = "Pods/Target Support Files/Pods-NeighborFood/Pods-NeighborFood.release.xcconfig"; sourceTree = "<group>"; };
 		370655BE1D445A7A00AE0DE2 /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraController.swift; path = ../CameraController.swift; sourceTree = "<group>"; };
 		37780F6A1D452AFD000F9E83 /* ImageUploadController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageUploadController.swift; sourceTree = "<group>"; };
@@ -77,6 +91,13 @@
 		2E0E0C581D43DE4200F51C4E /* NeighborFood */ = {
 			isa = PBXGroup;
 			children = (
+				2E3C043B1D454B6F00959379 /* CollectionViewController.swift */,
+				2E3C043C1D454B6F00959379 /* consumerImagesViewController.swift */,
+				2E3C043D1D454B6F00959379 /* consumerViewController.swift */,
+				2E3C043E1D454B6F00959379 /* ImagePickerController.swift */,
+				2E3C043F1D454B6F00959379 /* prodDetailViewController.swift */,
+				2E3C04401D454B6F00959379 /* producerDetailViewController.swift */,
+				2E3C04411D454B6F00959379 /* ProducerSecondView.swift */,
 				2E0E0C591D43DE4200F51C4E /* AppDelegate.swift */,
 				2E0E0C5B1D43DE4200F51C4E /* FirstViewController.swift */,
 				2E0E0C5D1D43DE4200F51C4E /* SecondViewController.swift */,
@@ -226,8 +247,15 @@
 			files = (
 				2E0E0C5E1D43DE4200F51C4E /* SecondViewController.swift in Sources */,
 				2E0E0C5A1D43DE4200F51C4E /* AppDelegate.swift in Sources */,
+				2E3C04451D454B6F00959379 /* consumerViewController.swift in Sources */,
+				2E3C04471D454B6F00959379 /* prodDetailViewController.swift in Sources */,
 				37780F6B1D452AFD000F9E83 /* ImageUploadController.swift in Sources */,
+				2E3C04431D454B6F00959379 /* CollectionViewController.swift in Sources */,
+				2E3C04481D454B6F00959379 /* producerDetailViewController.swift in Sources */,
 				370655BF1D445A7A00AE0DE2 /* CameraController.swift in Sources */,
+				2E3C04461D454B6F00959379 /* ImagePickerController.swift in Sources */,
+				2E3C04491D454B6F00959379 /* ProducerSecondView.swift in Sources */,
+				2E3C04441D454B6F00959379 /* consumerImagesViewController.swift in Sources */,
 				2E0E0C5C1D43DE4200F51C4E /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

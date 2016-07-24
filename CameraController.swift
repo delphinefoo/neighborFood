@@ -82,7 +82,14 @@ class CameraController: UIViewController, UIImagePickerControllerDelegate, UINav
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         imagePicker.delegate = self
-        imagePicker.sourceType = UIImagePickerControllerSourceType.Camera
+        
+        if (UIImagePickerController.isSourceTypeAvailable(.Camera)) {
+            imagePicker.sourceType = UIImagePickerControllerSourceType.Camera
+        }
+        else {
+            imagePicker.sourceType = UIImagePickerControllerSourceType.PhotoLibrary
+        }
+        
         imagePicker.mediaTypes = [kUTTypeImage as String]
         imagePicker.allowsEditing = false
 
