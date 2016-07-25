@@ -2,10 +2,11 @@
 
 ![neighborfood - login page](https://cloud.githubusercontent.com/assets/9803285/17079398/29e97b60-50c4-11e6-9ab1-7db831ae2514.png)
 
-An iOS app that connects small-scale food producers directly with individual consumers.
+An iOS app that connects small-scale food producers directly with individual consumers.  
+This project was started at [iOS DevCamp 2016](http://www.iosdevcamp.org/).
 
-**Team members:**
-Yoshi Tesako  
+**Team members:**  
+Yoshi Tasaka  
 Natsuki Kaku  
 Ed Rozenberg  
 Ryan Lim  
